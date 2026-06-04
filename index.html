@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Café Barbera Hargeisa</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#f8f3ed] text-gray-800">
+
+  <!-- Navbar -->
+  <header class="bg-[#3b2418]/95 text-white sticky top-0 z-50 backdrop-blur">
+    <nav class="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
+      <h1 class="text-xl sm:text-2xl font-bold">Café Barbera</h1>
+
+      <div class="hidden md:flex gap-8 text-sm font-medium">
+        <a href="#home" class="hover:text-yellow-300">Home</a>
+        <a href="#services" class="hover:text-yellow-300">Services</a>
+        <a href="#gallery" class="hover:text-yellow-300">Gallery</a>
+        <a href="#contact" class="hover:text-yellow-300">Contact</a>
+      </div>
+
+      <a href="#contact" class="hidden sm:inline-block bg-yellow-400 text-[#3b2418] px-5 py-2 rounded-full font-bold hover:bg-yellow-300 transition">
+        Contact Us
+      </a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="relative min-h-screen flex items-center text-white">
+    <img
+      src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1600&q=80"
+      class="absolute inset-0 w-full h-full object-cover"
+      alt="Cafe background"
+    />
+    <div class="absolute inset-0 bg-black/60"></div>
+
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center py-20">
+      <div class="text-center lg:text-left">
+        <p class="text-yellow-300 font-semibold mb-3">Italian Coffee House</p>
+
+        <h2 class="text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight mb-6">
+          Café Barbera <br />
+          <span class="text-yellow-300">Hargeisa</span>
+        </h2>
+
+        <p class="text-base sm:text-lg text-gray-100 mb-8 max-w-xl mx-auto lg:mx-0">
+          Experience authentic Italian coffee, delicious food, premium desserts,
+          and a relaxing atmosphere for work, meetings, friends, and family.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+          <a href="#services" class="bg-yellow-400 text-[#3b2418] px-8 py-3 rounded-full font-bold hover:bg-yellow-300 transition">
+            Explore Services
+          </a>
+          <a href="#contact" class="border border-white px-8 py-3 rounded-full font-bold hover:bg-white hover:text-[#3b2418] transition">
+            Get in Touch
+          </a>
+        </div>
+      </div>
+
+      <div class="bg-white/10 backdrop-blur-md rounded-3xl p-4 sm:p-6 shadow-2xl">
+        <img
+          src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=80"
+          class="rounded-2xl w-full h-64 sm:h-80 lg:h-[430px] object-cover"
+          alt="Coffee cup"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-16 sm:py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 text-center">
+      <p class="text-[#8b5a3c] font-bold mb-2">What We Offer</p>
+      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-12">Our Services</h2>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+
+        <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:-translate-y-2 transition">
+          <img src="https://images.unsplash.com/photo-1517705008128-361805f42e86?auto=format&fit=crop&w=700&q=80" class="h-56 w-full object-cover" alt="Coffee">
+          <div class="p-7">
+            <div class="text-4xl mb-4">☕</div>
+            <h3 class="text-xl font-bold mb-3">Premium Italian Coffee</h3>
+            <p class="text-gray-600">Espresso, Cappuccino, Latte, Mocha and other premium coffee beverages.</p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:-translate-y-2 transition">
+          <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=700&q=80" class="h-56 w-full object-cover" alt="Pizza">
+          <div class="p-7">
+            <div class="text-4xl mb-4">🍕</div>
+            <h3 class="text-xl font-bold mb-3">Fresh Food & Meals</h3>
+            <p class="text-gray-600">Pizza, Pasta, Burgers, Sandwiches, Panini and delicious meals.</p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:-translate-y-2 transition">
+          <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=700&q=80" class="h-56 w-full object-cover" alt="Desserts">
+          <div class="p-7">
+            <div class="text-4xl mb-4">🍰</div>
+            <h3 class="text-xl font-bold mb-3">Desserts & Pastries</h3>
+            <p class="text-gray-600">Cakes, croissants and sweet treats perfectly paired with coffee.</p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:-translate-y-2 transition">
+          <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=700&q=80" class="h-56 w-full object-cover" alt="Cold drinks">
+          <div class="p-7">
+            <div class="text-4xl mb-4">🥤</div>
+            <h3 class="text-xl font-bold mb-3">Cold Drinks</h3>
+            <p class="text-gray-600">Fresh juices, smoothies, iced coffee and refreshing beverages.</p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:-translate-y-2 transition">
+          <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=700&q=80" class="h-56 w-full object-cover" alt="Workspace">
+          <div class="p-7">
+            <div class="text-4xl mb-4">💻</div>
+            <h3 class="text-xl font-bold mb-3">Workspace & Meetings</h3>
+            <p class="text-gray-600">A comfortable environment for studying, remote work and business meetings.</p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:-translate-y-2 transition">
+          <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=700&q=80" class="h-56 w-full object-cover" alt="Family cafe">
+          <div class="p-7">
+            <div class="text-4xl mb-4">👨‍👩‍👧</div>
+            <h3 class="text-xl font-bold mb-3">Family Friendly Atmosphere</h3>
+            <p class="text-gray-600">A welcoming place for families, friends and social gatherings.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="py-16 sm:py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="text-center mb-12">
+        <p class="text-[#8b5a3c] font-bold mb-2">Beautiful Moments</p>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold">Our Gallery</h2>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=700&q=80" class="rounded-3xl h-72 w-full object-cover shadow-lg hover:scale-105 transition duration-300" alt="Coffee">
+        <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=700&q=80" class="rounded-3xl h-72 w-full object-cover shadow-lg hover:scale-105 transition duration-300" alt="Coffee bar">
+        <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=700&q=80" class="rounded-3xl h-72 w-full object-cover shadow-lg hover:scale-105 transition duration-300" alt="Cafe">
+        <img src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&w=700&q=80" class="rounded-3xl h-72 w-full object-cover shadow-lg hover:scale-105 transition duration-300" alt="Cafe front">
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="py-16 bg-[#3b2418] text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+      <div>
+        <h3 class="text-4xl sm:text-5xl font-bold text-yellow-400">10K+</h3>
+        <p class="text-gray-300 mt-2">Happy Customers</p>
+      </div>
+      <div>
+        <h3 class="text-4xl sm:text-5xl font-bold text-yellow-400">50+</h3>
+        <p class="text-gray-300 mt-2">Menu Items</p>
+      </div>
+      <div>
+        <h3 class="text-4xl sm:text-5xl font-bold text-yellow-400">7 Days</h3>
+        <p class="text-gray-300 mt-2">Open Weekly</p>
+      </div>
+      <div>
+        <h3 class="text-4xl sm:text-5xl font-bold text-yellow-400">100%</h3>
+        <p class="text-gray-300 mt-2">Premium Taste</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Info -->
+  <section id="contact" class="py-16 sm:py-20 bg-[#f8f3ed]">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+
+      <div>
+        <img
+          src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=900&q=80"
+          class="rounded-3xl shadow-xl w-full h-64 sm:h-80 lg:h-[430px] object-cover"
+          alt="Cafe interior"
+        />
+      </div>
+
+      <div class="text-center lg:text-left">
+        <p class="text-[#8b5a3c] font-bold mb-2">Contact & Information</p>
+
+        <h2 class="text-3xl sm:text-4xl font-bold mb-6">
+          About Café Barbera Hargeisa
+        </h2>
+
+        <p class="text-gray-600 mb-6 leading-relaxed">
+          Café Barbera Hargeisa is a modern coffee house and restaurant offering
+          authentic Italian coffee, quality food, desserts, and beverages in a warm,
+          elegant, and comfortable atmosphere.
+        </p>
+
+        <div class="space-y-4 text-left max-w-md mx-auto lg:mx-0">
+
+          <div class="flex items-center gap-4 bg-white p-4 rounded-2xl shadow-sm">
+            <span class="text-2xl">📍</span>
+            <p><strong>Location:</strong> Road 01, Hargeisa</p>
+          </div>
+
+          <div class="flex items-center gap-4 bg-white p-4 rounded-2xl shadow-sm">
+            <span class="text-2xl">📞</span>
+            <p><strong>Phone:</strong> +252 63 3333520</p>
+          </div>
+
+          <div class="flex items-center gap-4 bg-white p-4 rounded-2xl shadow-sm">
+            <span class="text-2xl">✉️</span>
+            <p>
+              <strong>Email:</strong>
+              <a href="mailto:info@caffebarbera.com" class="text-[#8b5a3c] font-semibold hover:underline">
+                info@caffebarbera.com
+              </a>
+            </p>
+          </div>
+
+          <div class="flex items-center gap-4 bg-white p-4 rounded-2xl shadow-sm">
+            <span class="text-2xl">📸</span>
+            <p>
+              <strong>Instagram:</strong>
+              <a href="https://www.instagram.com/cafebarbera_hargeisa/" target="_blank" class="text-[#8b5a3c] font-semibold hover:underline">
+                @cafebarbera_hargeisa
+              </a>
+            </p>
+          </div>
+
+          <div class="flex items-center gap-4 bg-white p-4 rounded-2xl shadow-sm">
+            <span class="text-2xl">⭐</span>
+            <p><strong>Perfect For:</strong> Coffee, Dining, Meetings & Family Gatherings</p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#3b2418] text-white py-8 text-center px-4">
+    <h3 class="text-2xl font-bold mb-2">Café Barbera Hargeisa</h3>
+
+    <div class="flex flex-col sm:flex-row justify-center gap-3 sm:gap-6 text-gray-300 text-sm sm:text-base mb-4">
+      <a href="mailto:info@caffebarbera.com" class="hover:text-yellow-300">info@caffebarbera.com</a>
+      <a href="https://www.instagram.com/cafebarbera_hargeisa/" target="_blank" class="hover:text-yellow-300">@cafebarbera_hargeisa</a>
+      <span>+252 63 3333520</span>
+    </div>
+
+    <p class="text-gray-300 text-sm sm:text-base">
+      Authentic Italian Coffee • Delicious Food • Exceptional Experience
+    </p>
+  </footer>
+
+</body>
+</html>
