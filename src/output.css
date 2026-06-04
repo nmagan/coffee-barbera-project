@@ -799,6 +799,9 @@
     --tw-tracking: 0.25em;
     letter-spacing: 0.25em;
   }
+  .whitespace-nowrap {
+    white-space: nowrap;
+  }
   .text-\[\#1f120b\] {
     color: #1f120b;
   }
@@ -1136,6 +1139,16 @@
   .lg\:flex {
     @media (width >= 64rem) {
       display: flex;
+    }
+  }
+  .lg\:hidden {
+    @media (width >= 64rem) {
+      display: none;
+    }
+  }
+  .lg\:inline-flex {
+    @media (width >= 64rem) {
+      display: inline-flex;
     }
   }
   .lg\:h-\[430px\] {
