@@ -11,6 +11,7 @@
   <style>
     body { font-family: 'Poppins', sans-serif; }
     .title-font { font-family: 'Playfair Display', serif; }
+    video { background: #000; }
   </style>
 </head>
 
@@ -82,17 +83,21 @@
       </div>
     </div>
 
-    <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=1000&q=90"
-         class="w-full h-72 sm:h-96 lg:h-[500px] object-cover rounded-[2rem] shadow-2xl border border-white/20"
-         alt="Coffee cup">
+    <video autoplay muted loop playsinline controls preload="metadata"
+      class="w-full max-w-[560px] mx-auto aspect-video lg:aspect-[4/5] object-cover rounded-[2rem] shadow-2xl border border-white/20">
+      <source src="./video1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
   </div>
 </section>
 
 <section id="about" class="py-20 bg-white">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-    <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1000&q=90"
-         class="w-full h-80 sm:h-96 lg:h-[500px] object-cover rounded-[2rem] shadow-xl"
-         alt="Cafe interior">
+    <video autoplay muted loop playsinline controls preload="metadata"
+      class="w-full max-w-[650px] mx-auto aspect-video lg:aspect-[5/4] object-cover rounded-[2rem] shadow-xl">
+      <source src="./video2.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
 
     <div class="text-center lg:text-left">
       <p class="text-[#c77810] font-bold tracking-[0.2em] mb-2">ABOUT US</p>
@@ -157,13 +162,12 @@
     </div>
 
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
-
       <div class="bg-white rounded-3xl p-8 shadow-xl">
         <div class="flex items-center gap-5 mb-6">
           <img src="./WhatsApp Image 2026-06-04 at 16.16.05.jpeg" alt="Haatim Raabi" class="w-24 h-24 rounded-full object-cover border-4 border-[#f4a62a] shadow-lg">
           <div>
             <div class="text-[#f4a62a] text-lg">★★★★★</div>
-            <h3 class="title-font text-2xl font-bold whitespace-nowrap">Maan jamal</h3>
+            <h3 class="title-font text-2xl font-bold whitespace-nowrap">Haatim Raabi</h3>
             <p class="text-gray-500 text-sm whitespace-nowrap">Content Creator</p>
           </div>
         </div>
@@ -191,7 +195,7 @@
           <img src="./WhatsApp Image 2026-06-04 at 16.16.02.jpeg" alt="Maan Jamal" class="w-24 h-24 rounded-full object-cover border-4 border-[#f4a62a] shadow-lg">
           <div>
             <div class="text-[#f4a62a] text-lg">★★★★★</div>
-            <h3 class="title-font text-2xl font-bold whitespace-nowrap">Hatim Raabi</h3>
+            <h3 class="title-font text-2xl font-bold whitespace-nowrap">Maan Jamal</h3>
             <p class="text-gray-500 text-sm whitespace-nowrap">Entrepreneur</p>
           </div>
         </div>
@@ -199,25 +203,6 @@
           “The food quality, customer service, and environment are exceptional.”
         </p>
       </div>
-
-    </div>
-  </div>
-</section>
-
-<section id="gallery" class="py-20 bg-white">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6">
-    <div class="text-center mb-12">
-      <p class="text-[#c77810] font-bold tracking-[0.2em] mb-2">OUR GALLERY</p>
-      <h2 class="title-font text-4xl sm:text-5xl font-extrabold">Moments at Café Barbera</h2>
-    </div>
-
-    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-      <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=600&q=90" class="h-40 sm:h-48 w-full object-cover rounded-2xl shadow-lg" alt="Coffee">
-      <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=600&q=90" class="h-40 sm:h-48 w-full object-cover rounded-2xl shadow-lg" alt="Pasta">
-      <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=600&q=90" class="h-40 sm:h-48 w-full object-cover rounded-2xl shadow-lg" alt="Cafe">
-      <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=90" class="h-40 sm:h-48 w-full object-cover rounded-2xl shadow-lg" alt="Cup">
-      <img src="https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?auto=format&fit=crop&w=600&q=90" class="h-40 sm:h-48 w-full object-cover rounded-2xl shadow-lg" alt="Cake">
-      <img src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&w=600&q=90" class="h-40 sm:h-48 w-full object-cover rounded-2xl shadow-lg" alt="Cafe front">
     </div>
   </div>
 </section>
@@ -234,7 +219,6 @@
 
     <div class="border-t border-white/10 mt-10 pt-6 text-center text-sm text-gray-400">
       © 2026 Café Barbera Hargeisa. All Rights Reserved.
-      Gacan dahblayda nashqadaysay najma magan
     </div>
   </div>
 </footer>
